@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+.relative {
+  width: 400px;
+  height: 100px;
+  background-color: grey;
+  position: relative;
+  left: 20px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 20px;
+}
+
+.fixed {
+  position: fixed;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+  height: 100px;
+  width: 200px;
+  background-color: yellow;
+}
+
+.extra {
+  border: 1px solid blue;
+  height: 1000px;
+}
